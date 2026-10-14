@@ -1,0 +1,19 @@
+# Secrets
+.env
+backend/.env
+
+# Build
+backend/target/
+*.class
+
+# Fichiers générés à l'exécution
+backend/reports/
+backend/uploads/*
+!backend/uploads/demo/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+node_modules/
